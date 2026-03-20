@@ -6,19 +6,19 @@ public class StudentService {
     public StudentService(){
         students=new ArrayList<>();
     }
-    public void addStudent(){
+    public void addStudent(Student student){
 
     }
     public void viewStudents(){
 
     }
-    public void searchById(){
+    public void searchById(int id){
 
     }
-    public void UpdateStudentDetails(){
+    public void updateStudentDetails(int id){
 
     }
-    public void deleteStudent(){
+    public void deleteStudent(int id){
 
     }
 }
